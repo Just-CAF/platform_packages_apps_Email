@@ -93,7 +93,8 @@
         android:hardwareAccelerated="true"
         android:allowBackup="false"
         android:supportsRtl="true"
-        android:usesCleartextTraffic="true" >
+        android:usesCleartextTraffic="true"
+        android:enabled="false" >
 
         <uses-library android:name="org.apache.http.legacy" android:required="false" />
         <activity
